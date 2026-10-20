@@ -1,0 +1,20 @@
+{
+  "name": "frontend-vulnerable-lab",
+  "version": "1.0.0",
+  "description": "Petit frontend avec des dependances volontairement anciennes (lab DevSecOps)",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "0.21.0",
+    "jquery": "3.4.1",
+    "lodash": "4.17.15",
+    "minimist": "1.2.0",
+    "moment": "2.29.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.21.5"
+  }
+}
